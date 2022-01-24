@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-netflix-clone/static/css/main.f4dc68ec.css",
+    "main.js": "/react-netflix-clone/static/js/main.2c1602f2.js",
+    "static/media/HeroBanner.jpg": "/react-netflix-clone/static/media/HeroBanner.cc2e2c2b342dff373c7f.jpg",
+    "static/media/netflix-logo.png": "/react-netflix-clone/static/media/netflix-logo.973b128636437a5b6f0a.png",
+    "index.html": "/react-netflix-clone/index.html",
+    "main.f4dc68ec.css.map": "/react-netflix-clone/static/css/main.f4dc68ec.css.map",
+    "main.2c1602f2.js.map": "/react-netflix-clone/static/js/main.2c1602f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4dc68ec.css",
+    "static/js/main.2c1602f2.js"
+  ]
+}
