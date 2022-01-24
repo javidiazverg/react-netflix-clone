@@ -30,7 +30,7 @@ const Banner = () => {
             color: "#fff"
         }}>
             <div className={classes.content}>
-                <Typography variant="h2" component="h1">
+                <Typography variant="h2" component="h1" className={classes.title}>
                     {movie?.title || movie?.name || movie?.original_name}
                 </Typography>
                 <div className={classes.buttons}>
@@ -91,6 +91,11 @@ const useStyles = makeStyles((theme) => ({
         marginTop: "25px",
         [theme.breakpoints.down("xs")]: {
             maxWidth: "280px",
+        }
+    },
+    title: {
+        [theme.breakpoints.down("xs")]: {
+            fontSize: "1.6rem",
         }
     }
   }));
