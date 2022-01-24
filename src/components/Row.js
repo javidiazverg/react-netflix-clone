@@ -42,7 +42,7 @@ const Row = ({title, fetchUrl, isLargeRow}) => {
 const useStyles = makeStyles((theme) => ({
     root: {
         color: "#fff",
-        marginLeft: theme.spacing(4),
+        marginLeft: theme.spacing(2),
     },
     posters: {
         display: "flex",

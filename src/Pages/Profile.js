@@ -71,6 +71,9 @@ const useStyles = makeStyles((theme) => ({
             backgroundColor: "#aaa",
             padding: theme.spacing(1),
             fontSize: "18px",
+        },
+        [theme.breakpoints.down("xs")]: {
+            marginLeft: "0px",
         }
     },
     plans: {

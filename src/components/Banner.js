@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundImage:"linear-gradient(180deg, transparent, rgba(37,37,37,0.61), #111)",
     },
     content: {
-        marginLeft: "30px",
+        marginLeft: "20px",
         paddingTop: "140px",
         height: "190px"
     },
@@ -86,9 +86,12 @@ const useStyles = makeStyles((theme) => ({
         width: "45rem",
         lineHeight: "1.2rem",
         fontSize: "1rem",
-        maxWidth: "360px",
+        maxWidth: "500px",
         height: "80px",
-        marginTop: "25px"
+        marginTop: "25px",
+        [theme.breakpoints.down("xs")]: {
+            maxWidth: "280px",
+        }
     }
   }));
 
