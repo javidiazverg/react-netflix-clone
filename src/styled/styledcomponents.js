@@ -20,7 +20,7 @@ const handleWidth = wide => {
 
 export const NetflixButton = styled.button`
     z-index; 15;
-    background-color: red;
+    background-color: ${(props)=>props.color === "gray" ? "lightgray": "red"};
     color: #fff;
     border-radius: ${({radius})=> (radius ? "5px" : null)};
     text-transform: inherit;

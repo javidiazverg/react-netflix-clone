@@ -10,7 +10,7 @@ const Plans = ({children, color, wide}) => {
             <Typography className={classes.standard} variant='h5'>
                 {children}
             </Typography>
-            <NetflixButton wide={wide}>Subscribe</NetflixButton>
+            <NetflixButton color= {color} wide={wide}>Subscribe</NetflixButton>
         </div>
     )
 }
