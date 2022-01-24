@@ -31,7 +31,7 @@ function App() {
   //Nuevo en version actual de react-router-dom -> Routes x Switch y Route se escribe diferente
   return (
     <div className={classes.root}>
-      <Router>
+      <Router basename="/app">
             <Routes>
               <Route path='/login' element={<Login/>}/>
               <Route path='/profile' element={<Profile/>}/>
